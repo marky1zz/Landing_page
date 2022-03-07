@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
 * {
     box-sizing: border-box;
@@ -19,7 +20,10 @@ body {
     height: 100px;
     display: flex;
     justify-content: space-between;
+    /*
     background-color: rgba(18, 28, 29, 0.8);
+    */
+    background-color: rgba(12, 18, 19, 0.8);
 }
 
 .logo {
@@ -55,3 +59,44 @@ body {
     font-size: 20px;
     cursor: pointer;
 }
+
+.the-box {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    height: 400px;
+    width: 900px;
+    margin: 50px auto;
+    /*
+    background-color: rgba(40, 44, 44, 0.8);}
+    */
+    background-color: rgba(41, 52, 53, 0.8);
+    border-radius: 20px;
+}
+
+.main-pic {
+    height: 350px;
+    width: 420px;
+    border-radius: 20px;
+}
+
+.main-text-box {
+    height: 350px;
+    width: 420px;
+    position: relative;
+}
+
+.main-text {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 50%;
+    font-family: cabin;
+    font-size: 50px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-shadow: 5px 5px 100px #d8d6f8;
+    
+}
+
+

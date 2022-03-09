@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 * {
     box-sizing: border-box;
@@ -10,9 +11,8 @@
 body {
     background-image: url(/CSS/img/background1.jpg);
     background-repeat: no-repeat;
-    
     background-size: cover;
-
+    background-attachment: fixed;
 }
 
 
@@ -96,7 +96,87 @@ body {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     text-shadow: 5px 5px 100px #d8d6f8;
-    
 }
+
+.second-box {
+    padding-top: 30px;
+    background-color: rgba(41, 52, 53);
+    margin-top: 60px;
+    height: 500px;
+    width: 100%;
+}
+
+.characters-text {
+    margin: 40px 0px;
+    text-align: center;
+    color: white;
+}
+
+.character-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pictures {
+    border: 10px solid white;
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+    transition: ease-in-out 0.3s;
+}
+
+.pictures:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 5px 5px 35px #aaa4ff;
+}
+
+.name {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.third-box {
+    height: 450px;
+    width: 100%;
+}
+
+.quote-box {
+    text-align: center;
+    background-color: blue;
+    height: 350px;
+    width: 90%;
+    margin: 45px auto;
+    border-radius: 135px;
+    background-color: rgba(41, 52, 53, 0.8);
+}
+
+blockquote {
+    font-weight: 700;
+    padding: 80px 0;
+    font-family: satisfy;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 30px #dddaff;
+}
+
+p {
+    font-weight: 500;
+    color: white;
+    font-family: satisfy;
+    font-size: 25px;
+    margin-top: -50px;
+    text-shadow: 1px 1px 1px #dddaff;
+}
+
+
+
+
+
+
+
+
+
 
 
